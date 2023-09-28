@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.photo {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.metadataPanel {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.metadata {
+    margin: 10px 0;
+}
+
+.metadataDescription {
+    font-family: 'regular';
+}
+
+.metadataTitle {
+    font-family: 'bold';
+    margin-right: 10px;
+}
+
+.backButton {
+    background-color: #59abe3;
+    font-family: 'bold';
+    font-size: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
